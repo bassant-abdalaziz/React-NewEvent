@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import { NavLink } from 'react-router-dom'; 
 import './style.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faBars } from '@fortawesome/free-solid-svg-icons'
 
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -25,14 +24,14 @@ const Navbar = () => {
           </div>
 
           <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-            <li><NavLink activeclassname="active" to='/'>intro</NavLink></li>
-            <li><NavLink to='/overview'>overview</NavLink></li>
-            <li><NavLink to='/speakers'>speakers</NavLink></li>
-            <li><NavLink to='/programs'>programs</NavLink></li>
-            <li><NavLink to='/register'>register</NavLink></li>
-            <li><NavLink to='/venue'>venue</NavLink></li>
-            <li><NavLink to='/sponsors'>sponsors</NavLink></li>
-            <li><NavLink to='/contact'>contact</NavLink></li>
+            <li><a  href='#' className='active' >Intro</a></li>
+            <li><a  href='#'>Overview</a></li>
+            <li><a  href='#'>Speakers</a></li>
+            <li><a  href='#'>Programs</a></li>
+            <li><a  href='#'>Register</a></li>
+            <li><a  href='#'>Venue</a></li>
+            <li><a  href='#'>Sponsors</a></li>
+            <li><a  href='#'>Contact</a></li>
           </ul>
         </div>
       </div>

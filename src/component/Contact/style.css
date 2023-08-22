@@ -1,0 +1,96 @@
+.contact-us{
+    margin-top: 100px;
+    background: url('../../../public/contact/contact-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 80vh;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact  h3{
+    text-align: left;
+}
+
+.contact .content{
+    width: 50%;
+}
+.contact .content p{
+    color:var(--dark-color);
+    line-height: 1.8;
+    width: 80%;
+    margin: 20px 0;
+}
+
+.contact .form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    border-radius: 50px;
+    padding: 80px 50px;
+    width: 40%
+}
+
+.contact .form input{
+outline: none;
+color: var(--dark-color);
+background-color: transparent;
+border: 2px solid white;
+font-size: 17px;
+width: 100%;
+}
+.contact .form textarea{
+    outline: none;
+    border: none;
+}
+
+.contact .form .send-btn{
+        background: var(--dark-color);
+        color: #fff;
+        font-size: 15px;
+        border: 0;
+        padding: 10px 8px;
+        cursor: pointer;
+        text-transform: capitalize;
+        width: 120px;
+        transition: background 0.3s;
+        border-radius: 20px;
+    }
+    
+    .contact .form  .send-btn:hover {
+        background: transparent;
+        color: var(--dark-color);
+        border: 1px solid var(--dark-color);
+    
+    }
+
+@media (max-width:997px) {
+    .contact-us{
+        height: 170vh;
+    }
+    .contact{
+        flex-direction: column;
+        gap:50px;
+    }
+    
+    .contact .content, .contact .form{
+        width: 100%;
+    }
+
+    .contact .content p{
+        width: 100%;
+    }
+
+    .contact .form input{
+        width: 100%;
+    }
+}

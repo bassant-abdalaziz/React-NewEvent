@@ -23,6 +23,7 @@
 }
 .nav .nav-links{
     display: flex;
+    align-items: center;
     gap: 25px;
 }
 .nav .nav-links li {
@@ -35,6 +36,7 @@
     font-size: 17px;
     text-transform: capitalize;
     transition: color 0.3s;
+    cursor: pointer;
 }
 
 .navbar li a:hover,

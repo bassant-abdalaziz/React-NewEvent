@@ -10,6 +10,7 @@ import Register from './Register/Register';
 import Accordion from './Accordion/Accordion';
 import Venue from './Venue/Venue';
 import Sponsors from './OurSponsors/Sponsors';
+import Contact from  './Contact/Contact';
 import Footer from './Footer/Footer'
 
 
@@ -28,6 +29,7 @@ function Home() {
       <Accordion/>
       <Venue/>
       <Sponsors/>
+      <Contact/>
       <Footer />
     </div>
   );
