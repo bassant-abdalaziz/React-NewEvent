@@ -1,0 +1,75 @@
+.our-program{
+    margin-top: 100px;
+}
+
+.tabs{
+    margin: 20px 0 40px 0;
+}
+.program-list {
+    display: flex;
+    gap: 30px;
+}
+
+.program-item {
+    cursor: pointer;
+    text-transform: capitalize;
+    color: var(--dark-color);
+    font-weight: bold;
+}
+hr{
+    width: 70%;
+    margin-left: 0
+}
+
+
+.program{
+    display: flex;
+    gap:5px;
+    margin-top: 40px;
+}
+
+.icons{
+    display: flex;
+    gap: 20px;
+    color: var(--gray-color);
+}
+
+.icons div span{
+    font-size: 15px;
+}
+
+.program img{
+    border-radius: 50%;
+    width: 70%;
+}
+
+.program h5{
+    text-transform: capitalize;
+    font-size: 20px;
+    color: var(--dark-color);
+    margin: 20px 0;
+}
+
+.program .name{
+    font-size: 19px;
+    text-transform: capitalize;
+    margin: 0;
+}
+.program p{
+    color: var(--gray-color);
+    width: 80%;
+    line-height: 1.8;
+}
+
+@media (max-width:767px) {
+    hr{
+        width: 100%;
+    }
+    .program p{
+        width: 100%;
+    }
+}
+
+.activeTab{
+    color: var(--primary-color);
+}

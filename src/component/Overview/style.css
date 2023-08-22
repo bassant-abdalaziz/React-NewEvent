@@ -1,0 +1,50 @@
+.overview {
+    height: auto;
+    padding: 60px 0;
+   background-color: var(--dark-color);
+   margin-top: 100px;
+}
+
+.Boxes{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.overview .Box {
+    width: 300px;
+    height: auto;
+    text-align: center;
+}
+
+
+.overview .Box .icon {
+    color: var(--primary-color);
+    font-size: 35px;
+    margin-bottom: 10px;
+}
+
+.overview .Box .part-title {
+    font-size: 20px;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+}
+
+.overview .Box .part-desc {
+    font-size: 15px;
+    color: var(--gray-color);
+    line-height: 1.7;
+}
+
+@media  (max-width:767px) {
+    .Boxes{
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .overview .Box {
+        width: 100%;
+    }
+}

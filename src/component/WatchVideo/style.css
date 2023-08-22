@@ -1,0 +1,43 @@
+.watch-video{
+    margin-top: 100px;
+}
+.WatchVideo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.WatchVideo div{
+    width: 48%;
+}
+
+.WatchVideo .content h3{
+    color: var(--dark-color);
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+
+.WatchVideo .content p{
+    color: var(--gray-color);
+    line-height: 1.8;
+    width: 80%;
+    margin: 20px 0;
+}
+
+
+@media (max-width:900px) {
+    .WatchVideo{
+        flex-direction: column;
+    }
+
+    .WatchVideo .content{
+        width: 100%;
+    }
+
+    .WatchVideo .content p{
+        width: 100%;
+    }
+
+    .WatchVideo .video{
+        width: 100%;
+    }
+}

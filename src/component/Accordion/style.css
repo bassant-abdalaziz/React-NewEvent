@@ -1,0 +1,54 @@
+.accordions{
+    margin-top: 100px;
+}
+
+.accordion{
+    margin: 0 auto;
+    width: 70%;
+    margin-top: 15px;
+    box-shadow: 1px 2px 3px gainsboro;
+}
+
+.accordion .title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(244, 244, 244);
+    padding: 10px 20px
+}
+.accordion .title h4{
+text-transform: capitalize;
+color: var(--dark-color);
+margin: 0;
+
+}
+
+.accordion .title span{
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.accordion .content {
+    max-height: 0;
+    overflow: hidden;
+    padding: 0 20px;
+    transition: all 0.6s cubic-bezier(0,1,0,1);
+}
+
+.content.show {
+    max-height: 1000px; 
+    padding: 8px 20px;
+    transition: all 0.5s cubic-bezier(1,0,1,0);
+}
+
+.accordion .content p{
+    line-height: 1.5;
+    color: var(--gray-color);
+    font-size: 15px;
+}
+
+@media (max-width:992px) {
+    .accordion{
+        width: 100%;
+    }
+}

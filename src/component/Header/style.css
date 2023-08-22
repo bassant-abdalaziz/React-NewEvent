@@ -1,0 +1,62 @@
+.home {
+    height: 90vh;
+    background: url('../../../public/home/intro-bg.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    position: relative;
+}
+
+.home .home-information {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.home .home-information .home-title {
+    font-size: 25px;
+    font-weight: 600;
+    font-weight: normal;
+    color: white;
+    text-transform: capitalize;
+}
+
+.home .home-information .home-info {
+    font-size: 40px;
+    color: white;
+    margin: 30px 0 50px 0;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.home .home-information .btns{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+
+@media (max-width: 850px) {
+    .home .home-information {
+        width: 90%;
+        padding: 0 20px;
+    }
+}
+
+@media (max-width:768px) {
+    .home .home-information .home-title {
+        font-size: 20px;
+    }
+    
+    .home .home-information .home-info {
+        font-size: 25px
+    }
+    
+}
+
+@media (max-width:480px) {
+    .home .home-information .btns {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,39 @@
+.creative-speakers{
+    margin-top: 100px;
+    padding: 60px 0;
+    background-color:rgb(247, 245, 245);
+}
+
+
+.speakers{
+    display: flex;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+.speaker{
+    text-align: center
+}
+
+.speaker img{
+    width: 100%;
+    height: 300px;
+}
+
+.speaker h4{
+    color: var(--dark-color);
+    text-transform: capitalize;
+    margin: 15px 0;
+    font-size: 20px;
+}
+
+.speaker p{
+    font-size: 16px;
+    text-transform: capitalize;
+    margin: 0;
+    color: var(--gray-color);
+}
+
+
+
+
