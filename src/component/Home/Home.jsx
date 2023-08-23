@@ -1,4 +1,5 @@
 //import components
+import Navbar from '../Navbar/Navbar';
 import Header from '../Header/Header';
 import About from '../About/About';
 import ItemOverview from '../Overview/ItemOverview';
@@ -15,6 +16,7 @@ import Footer from '../Footer/Footer';
 const  Home = ()=> {
   return (
     <div >
+      <Navbar />
       <Header />
       <About/>
       <ItemOverview/>
