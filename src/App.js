@@ -5,7 +5,7 @@ import Home from './component/Home/Home'; // Import your components here
 
 function App() {
   return (
-    <BrowserRouter basename="/React-NewEvent">
+    <BrowserRouter basename="/React-NewEvent/">
 
       <Routes>
         <Route path="/" element={<Home />} />
