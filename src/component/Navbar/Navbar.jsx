@@ -32,14 +32,14 @@ const Navbar = () => {
           </div>
 
           <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-            <li><Link to='/' className='active'>Intro</Link></li>
-            <li><Link >Overview</Link></li>
-            <li><Link >Speakers</Link></li>
-            <li><Link >Programs</Link></li>
-            <li><Link >Register</Link></li>
-            <li><Link >Venue</Link></li>
-            <li><Link >Sponsors</Link></li>
-            <li><Link >Contact</Link></li>
+            <li><Link to='/' >Intro</Link></li>
+            {/* <li><Link to='/'>Overview</Link></li>
+            <li><Link to='/'>Speakers</Link></li>
+            <li><Link to='/'>Programs</Link></li>
+            <li><Link to='/'>Register</Link></li>
+            <li><Link to='/'>Venue</Link></li>
+            <li><Link to='/'>Sponsors</Link></li>
+            <li><Link to='/'>Contact</Link></li> */}
           </ul>
         </div>
       </div>
